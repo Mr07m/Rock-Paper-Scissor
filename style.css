@@ -25,7 +25,9 @@ body{
 
 .choice:hover {
   cursor: pointer;
-  background-color: #081b31;
+  /* background-color: #081b31; */
+  border: 1px solid #081b31;
+  gap: 1rem;
 }
 
 img {
@@ -64,7 +66,7 @@ img {
 #msg {
   background-color: #081b31;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1rem;
   display: inline;
   padding: 1rem;
   border-radius: 1rem;
